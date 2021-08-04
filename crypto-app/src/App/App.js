@@ -27,6 +27,9 @@ function App() {
             <Route path="/preferences">
               <Preferences />
             </Route>
+            <Route path="/login">
+              <Login />
+            </Route>
           </Switch>
         </BrowserRouter>
       </div>
