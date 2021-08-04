@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <div className="wrapper">
+      <div className="coin_app">
         {/* <h1>Application</h1> */}
         <BrowserRouter>
           <Switch>
