@@ -10,4 +10,12 @@ app.use('/login', (req, res) => {
     });
   });
 
+// app.use(
+//     bodyParser.urlencoded({
+//         extended: false
+//     })
+// );
+
+// app.use(bodyParser.json());
+
 app.listen(8080, () => console.log('API is running on http://localhost:8080/login'));

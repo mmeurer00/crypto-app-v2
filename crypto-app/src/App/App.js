@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Login from '../Components/Login/Login';
 import Dashboard from '../Components/Dashboard/Dashboard';
 import Preferences from '../Components/Preferences/Preferences';
-import SearchWindow from "../Components/SearchWindow";
 import useToken from './useToken';
 import './App.css'
 
@@ -19,7 +18,7 @@ function App() {
   return (
     <>
       <div className="wrapper">
-        <h1>Application</h1>
+        {/* <h1>Application</h1> */}
         <BrowserRouter>
           <Switch>
             <Route path="/dashboard">
@@ -31,7 +30,6 @@ function App() {
           </Switch>
         </BrowserRouter>
       </div>
-      <SearchWindow />
     </>
   );
 }
