@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import Card from "./Coin/Card";
 
 function CardList({ props }) {
   return (

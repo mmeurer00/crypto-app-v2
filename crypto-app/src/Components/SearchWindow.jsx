@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SearchBar from "./SearchBar";
+import SearchBar from "./SearchBar/SearchBar";
 import CoinsListContainer from "./CoinsListContainer";
 
 function SearchWindow() {
