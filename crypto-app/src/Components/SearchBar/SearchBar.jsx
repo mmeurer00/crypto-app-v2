@@ -7,6 +7,7 @@ function SearchBar({ props }) {
       <div className="coin_search">
         <input
           className="coin_input"
+          placeholder="Search Coins..."
           type="text"
           value={props.query}
           onChange={(e) => props.setQuery(e.target.value)}
